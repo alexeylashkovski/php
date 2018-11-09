@@ -1,0 +1,37 @@
+.by .content {
+	padding-bottom: 440px;
+}
+
+.form_field_suggestion {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	background-color: #fbfbfb;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+	border: 1px solid #999;
+    box-sizing: border-box;
+    z-index: 9999;
+	box-sizing: border-box;
+	cursor: default;
+	display: none;
+}
+	.form_field_suggestion:before {
+		content: 'Кликните мышью по варианту, который совпадает с вашим адресом!';
+		display: block;
+		color: #ffffff;
+		font-size: 10px;
+		padding: 3px 0 2px 5px;
+/*		background-color: #f3f3f3;*/
+		background-color: #ba4442;
+		box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+	}
+	.form_field_suggestion div {
+		padding: 5px 3px 5px 3px;
+		cursor: pointer;
+	}
+		.form_field_suggestion div span {
+			color: #3399ff;
+		}
+		.form_field_suggestion div:hover {
+			background-color: #eee;
+		}

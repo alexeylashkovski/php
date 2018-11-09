@@ -1,0 +1,189 @@
+@media (max-width:1200px){
+	.header_menu li {
+		font-size: 13px;
+	}
+	.logged_user_header_info {
+		top: 64px;
+	    left: 30px;
+	    right: auto;
+	    margin-left: 0;
+	    width: auto;
+	    text-align: right;
+		font-size: 10px;
+	    line-height: 10px;
+	}
+}
+
+@media (max-width:991px){
+	.front_magazine_cell:nth-child(4n + 1) {
+		clear: none;
+	}
+	.front_magazine_cell:nth-child(2n + 1) {
+		clear: both;
+	}
+	.magazine_cover {
+		margin: 0 auto 10px auto;
+		display: block;
+		max-width: 80%;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	.promocode_wrapper {
+		width: 100%;
+		padding: 16px 10px 30px 10px;
+	}
+	.input-success:after {
+		top: 11px;
+		right: -14px;
+	}
+	.bottom_line_subscribe {
+		display: block;
+	}
+	.header_menu {
+		display: none;
+	}
+	.hamburger.is-active + .hamburger-menu {
+		left: 0;
+	}
+	.mob_burger {
+		display: block;
+	}
+}
+
+@media (min-width:769px) and (max-width:991px) {
+}
+
+@media (max-width:768px){
+	.content {
+		padding-bottom: 20px !important;
+	}
+	footer {
+		position: relative;
+		left: auto;
+		bottom: auto;
+		right: auto;
+	}
+	.swiper-slide-dummy {
+		max-width: 96%;
+		height: 250px;
+	}
+	header .mob_burger {
+/*
+		margin-top: 12px;
+*/
+		margin-left: -10px;
+		position: absolute;
+	}
+	header .logo_wrapper {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+		header img.logo {
+			float: none;
+			display: inline-block;
+		}
+	.logged_user_header_info {
+	    left: 20px;
+	}
+	.swiper-slide-dummy {
+		height: 80px;
+		max-width: 100%;
+	}
+	.swiper-pagination-bullet {
+		width: 7px;
+		height: 7px;
+	}
+	.swiper-pagination-bullets {
+		font-size: 12px;
+	}
+	.front_slider .swiper-container {
+		padding-bottom: 20px;
+	}
+	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+		bottom: auto;
+		margin-top: 5px;
+	}
+	.magazine-filter2 {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+		.magazine-filter2 li {
+			margin: 0 2px;
+		}
+			.magazine-filter2 li a {
+				font-size: 14px;
+				padding: 8px 14px;
+			}
+}
+
+
+@media (max-width:566px){
+/*
+	header .logo_wrapper {
+		margin-top: 15px;
+	}
+*/
+	.header_menu li {
+		line-height: 36px;
+	}
+}
+
+@media (max-width:480px){
+	body {
+		font-size: 12px;
+	}
+	.magazine-filter2 li a {
+		padding: 8px 0px;
+	}
+	.subscribe_type_wrapper label {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	footer {
+		font-size: 10px;
+		line-height: 23px;
+	}
+	.magazine-filter2 li a {
+		padding: 8px 0px;
+	}
+	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+		bottom: auto;
+		margin-top: 5px;
+	}
+	.faq__question {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.promocode_wrapper .button {
+		padding: 1px 12px 0 12px;
+		font-size: 12px;
+	}
+	.promocode_wrapper .sm-form-control {
+		font-size: 12px;
+		padding: 8px 8px;
+	}
+	h1 {
+		font-size: 21px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 14px;
+	}
+	.magazines_wrapper .title {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.magazine-overlay {
+		display: none;
+	}
+	.success_small_text {
+		font-size: 10px;
+	}
+}
+
+@media screen (min-width:320px) and (max-width:480px){
+}

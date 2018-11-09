@@ -1,0 +1,11 @@
+Host: https://toloka24.ru1
+
+User-agent: Yandex
+Disallow: /cgi-bin
+
+User-agent: *
+Disallow: /cgi-bin
+Disallow: /admin
+Disallow: /ajax
+Disallow: /pmy
+Disallow: /subscribes

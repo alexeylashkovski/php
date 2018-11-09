@@ -1,0 +1,26 @@
+@media (max-width:1200px){
+}
+
+@media (max-width:991px){
+	.form_field_suggestion:before {
+		content: 'Выберите вариант, совпадающий с вашим адресом!';
+	}
+}
+
+@media (min-width:769px) and (max-width:991px) {
+}
+
+@media (max-width:768px){
+	footer {
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width:566px){
+}
+
+@media (max-width:480px){
+}
+
+@media screen (min-width:320px) and (max-width:480px){
+}
